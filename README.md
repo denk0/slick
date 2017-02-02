@@ -18,15 +18,11 @@
 
 ## 2. Подготовка верстки
 - создаем верстку
-<pre>
-<code>
-   <div class="ba-slider">
+   `<div class="ba-slider">
      <div class="ba-slide">slide 1</div>
      <div class="ba-slide">slide 2</div>
      <div class="ba-slide">slide 3</div>
-   <div/>
-   </code>
-   </pre>
+   <div/>`
 - если верстка будет включать классы bootstrap/foundation - ничего не сломается, т.е. верстка
  `<div class="container">
     <div class="row ba-slider">
