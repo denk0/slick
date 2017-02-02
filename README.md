@@ -17,30 +17,30 @@
 - в src -> assets -> scss -> app.scss добавляем `@import "slick.scss";`
 
 ## 2. Подготовка верстки
-- создаем верстку
+- создаем верстку <br>
    `<div class="ba-slider">`<br>
      `  <div class="ba-slide">slide 1</div>`<br>
      `  <div class="ba-slide">slide 2</div>`<br>
      `  <div class="ba-slide">slide 3</div>`<br>
    `<div/>`
-- если верстка будет включать классы bootstrap/foundation - ничего не сломается, т.е. верстка
- `<div class="container">
-    <div class="row ba-slider">
-      <div class="col-md-4 ba-slide">slide 1</div>
-      <div class="col-md-4 ba-slide">slide 2</div>
-      <div class="col-md-4 ba-slide">slide 3</div>
-    <div/>
- </div>`
+- если верстка будет включать классы bootstrap/foundation - ничего не сломается, т.е. верстка <br>
+ `<div class="container">` <br>
+ ` <div class="row ba-slider">`<br>
+ `  <div class="col-md-4 ba-slide">slide 1</div>`<br>
+ `  <div class="col-md-4 ba-slide">slide 2</div>`<br>
+ `  <div class="col-md-4 ba-slide">slide 3</div>`<br>
+ ` <div/>`<br>
+ `</div>`<br>
  тоже подходит.
 - важно чтобы `.ba-slide` был прямым ребенком `.ba-slider`!
-  т.е.
-  `<div class="container ba-slider">
-    <div class="row">
-      <div class="col-md-4 ba-slide">slide 1</div>
-      <div class="col-md-4 ba-slide">slide 2</div>
-      <div class="col-md-4 ba-slide">slide 3</div>
-    <div/>
- </div>`
+  т.е. <br>
+  `<div class="container ba-slider">`<br>
+    `<div class="row">`<br>
+      `<div class="col-md-4 ba-slide">slide 1</div>`<br>
+      `<div class="col-md-4 ba-slide">slide 2</div>`<br>
+      `<div class="col-md-4 ba-slide">slide 3</div>`<br>
+    `<div/>`<br>
+ `</div>`<br>
  не будет работать
  
 ## 3. Инициализация слайдера
