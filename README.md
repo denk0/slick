@@ -18,8 +18,8 @@
 
 ## 2. Подготовка верстки
 - создаем верстку
-   `<div class="ba-slider">
-     <div class="ba-slide">slide 1</div>
+   <div>`<div class="ba-slider">`</div>
+     `<div class="ba-slide">slide 1</div>
      <div class="ba-slide">slide 2</div>
      <div class="ba-slide">slide 3</div>
    <div/>`
