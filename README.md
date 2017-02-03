@@ -12,9 +12,9 @@
 
 #### Установка через bower (приветствуется)
 - пишем `bower install --save slick-carousel` в корне проекта
-- в файле config.yml под строкой `- "bower_components/bootstrap-sass/assets/stylesheets/bootstrap"` (тут может быть foundation) добавляем `- "bower_components/slick-carousel/slick/slick.scss"`
+- в файле config.yml под строкой `- "bower_components/bootstrap-sass/assets/stylesheets/bootstrap"` (тут может быть foundation) добавляем `- "bower_components/slick-carousel/slick"`
 и под строкой `- "bower_components/what-input/dist/what-input.js"` добавляем `- "bower_components/slick-carousel/slick/slick.min.js"`
-- в src -> assets -> scss -> app.scss добавляем `@import "slick";`
+- в src -> assets -> scss -> app.scss добавляем `@import "slick.scss";`
 
 ## 2. Подготовка верстки
 - создаем верстку <br>
