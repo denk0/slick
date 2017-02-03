@@ -22,14 +22,14 @@
  `  <div class="ba-slide">slide 1</div>`<br>
  `  <div class="ba-slide">slide 2</div>`<br>
  `  <div class="ba-slide">slide 3</div>`<br>
- `<div/>`
+ `</div>`
 - если верстка будет включать классы bootstrap/foundation - ничего не сломается, т.е. верстка <br>
  `<div class="container">` <br>
  ` <div class="row ba-slider">`<br>
  `  <div class="col-md-4 ba-slide">slide 1</div>`<br>
  `  <div class="col-md-4 ba-slide">slide 2</div>`<br>
  `  <div class="col-md-4 ba-slide">slide 3</div>`<br>
- ` <div/>`<br>
+ ` </div>`<br>
  `</div>`<br>
  тоже подходит.
 - важно чтобы `.ba-slide` был прямым ребенком `.ba-slider`!
@@ -39,7 +39,7 @@
       `<div class="col-md-4 ba-slide">slide 1</div>`<br>
       `<div class="col-md-4 ba-slide">slide 2</div>`<br>
       `<div class="col-md-4 ba-slide">slide 3</div>`<br>
-    `<div/>`<br>
+    `</div>`<br>
  `</div>`<br>
  не будет работать
  
